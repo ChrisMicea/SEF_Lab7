@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "micea_christian_sef_lab7",
+  "version": "1.0.0",
+  "description": "NodeJS CLI app that greets the user in different languages and colors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Christian Micea",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "chalk": "^5.6.2"
+  },
+  "bin": {
+    "hello-npm": "index.js"
+  }
+}
